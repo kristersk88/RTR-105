@@ -1,5 +1,7 @@
 # RTR-105
 ## Datormācība (pamatkurss) elektroniskā klade
+
+#### Komandas
 ```
    10  whoami
    11  who
