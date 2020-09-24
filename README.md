@@ -61,5 +61,34 @@
    rmdir --ignore-fail-on-non-empty EFG/
    man rm
    rm -r EFG/
+   ls -l /bin/ls
+   cat /bin/ls
+   cat
+   nano my_first_shell_script.sh
+   echo $PATH
+   mv my_first_shell_script my_first_shell_script.sh
+   PATH=$PATH:~
+   echo $PATH
+   rd my_first_shell_script my_first_shell_scrip
+   /home/user/my_first_shell_script.sc
+   chmod +rwx my_first_shell_script.sh
+   chmod my_first_shell_script.sh
+   hmod 754 my_first_shell_script.sh
+   ls -l EFG/c.txt
+   cat my_first_shell_script.sh
+   groups
+   
+```
+#### Script
+
+```
+#!/bin/bash
+
+mkdir ABC
+mkdir EFG
+touch a.txt
+cat a.txt > ABC/b.txt
+cd EFG
+mv ../ABC/b.txt c.txt
 
 ```
