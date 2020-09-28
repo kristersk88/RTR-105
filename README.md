@@ -19,7 +19,6 @@
    man ls
    ls -l
    ls -a
-   ls -a
    ls -a -l
    ls -l -a
    ls -la
