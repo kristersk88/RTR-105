@@ -72,6 +72,7 @@
    /home/user/my_first_shell_script.sc
    chmod +rwx my_first_shell_script.sh
    chmod my_first_shell_script.sh
+   chmod 754 my_first_shell_script.sh
    hmod 754 my_first_shell_script.sh
    ls -l EFG/c.txt
    cat my_first_shell_script.sh
