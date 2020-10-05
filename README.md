@@ -81,13 +81,7 @@
 ```
 ```
    45  git clone https://github.com/kristersk88/RTR-105
-   46  rm -rf RTR-105_old
-   47  rm -rf RTR-105_new
-   48  ls -lt
    49  cd RTR-105
-   50  ls -lta
-   51  .git$ cat config
-   52  cd
    53  .git$ cat config
    54  cd RTR-105
    55  cat git-upload
@@ -96,36 +90,21 @@
    58  cat a.sh
    59  rd rd a.sh
    60  ls -lt a.sh
-   61  ch mod a.sh
-   62  chmod a.sh
    63  chmod 754 a.sh
    64  ./a.sh
-   65  cd
-   66  ./a.sh
-   67  pwd
-   68  nano
-   69  ls -lt
    70  rm RTR-105
    71  rm -rf RTR-105
-   72  ls -lt
    73  gcc my_first_code.c
    74  echo $?
-   75  ls -lt
    76  cat a.out
-   77  gcc my_first_code.c my_first_code.out
-   78  gcc my_first_code.c
-   79  gcc my_first_code.c my_first_code.out
-   80  ./my_first_code.out
    81  ./a.out
    82  history
    83  nano my_second_code.c
    84  ./my_second_code.c
    85  gcc my_second_code.c
-   86  ls -lt
    87  gcc my_first_code.c -o my_first_code.out
    88  ls -lt
    89  gcc my_second_code.c -o my_second_code.out
-   90  ls -lt
    91  cat my_first_code.c
    92  cat my_second_code.c
 
