@@ -1,0 +1,142 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/kristersk88/RTR-105
+    4  /RTR-105
+    5  pwd
+    6  gcc
+    7  ls -lt
+    8  /RTR-105/
+    9  ./RTR-105/
+   10  pwd
+   11  cd RTR-105
+   12  ls -lt
+   13  pwd
+   14  cat git-upload
+   15  cat git -upload
+   16  nanonano
+   17  nano code.c
+   18  gcc code.c
+   19  echo $0
+   20  echo $?
+   21  gcc code.c
+   22  echo $?
+   23  nano code.c
+   24  gcc code.c
+   25  nano code.c
+   26  a.out
+   27* 
+   28  pwd
+   29  ./RTR-105/a.out
+   30  ls -lt
+   31  gcc code.c
+   32  ls -lt
+   33  ./RTR-105/a.out
+   34  ls -lt
+   35  ./RTR-105/a.out
+   36  ./a.out
+   37  ls -lt
+   38  nano code.c
+   39  gcc code.c
+   40  nano code.c
+   41  gcc code.c
+   42  nano code.c
+   43  gcc code.c
+   44  nano code.c
+   45  ls -lt
+   46  gcc code.c
+   47  ls -lt
+   48  nano code.c
+   49  nano code3.c
+   50  gcc code3.c
+   51  ls lt
+   52  ls -lt
+   53  gcc code.c
+   54  gcc code3.c
+   55  nano code3.
+   56  ls -lt
+   57  gcc code.c
+   58  ls -lt
+   59  gcc code.c
+   60  ls -lt
+   61  gcc code.c
+   62  ls -lt
+   63  ./a.out
+   64  echo $?
+   65  gcc code3.c
+   66  nano code3.c
+   67  gcc code3.c
+   68  echo $?
+   69  cp code3.c code4.c
+   70  nano code4.c
+   71  gcc code4.c
+   72  ./code4.c
+   73* ls -
+   74  ./a.out
+   75  nano HelloWorld.c
+   76  ls -lt
+   77  gcc HelloWorld
+   78  gcc HelloWorld.c
+   79  echo $?
+   80  ./HelloWorld.c
+   81  ./a.out
+   82  pwd
+   83  gcc HelloWorld.c
+   84  ls -lt
+   85  gcc HelloWorld.c
+   86  nano HelloWorld.c
+   87  gcc HelloWorld.c
+   88  echo $?
+   89  nano HelloWorld.c
+   90  gcc HelloWorld.c
+   91  nano HelloWorld.c
+   92  gcc HelloWorld.c
+   93  ./a.out
+   94  nano HelloWorld.c
+   95  ./a.out
+   96  gcc HelloWorld.c
+   97  nano HelloWorld.c
+   98  gcc HelloWorld.c
+   99  nano HelloWorld.c
+  100  gcc HelloWorld.c
+  101  ./a.out
+  102  nano HelloWorld.c
+  103  gcc HelloWorld.c
+  104  ./a.out
+  105  nano HelloWorld.c
+  106  gcc HelloWorld.c
+  107  ./a.out
+  108  nano HelloWorld.c
+  109  gcc HelloWorld.c
+  110  nano HelloWorld.c
+  111  gcc HelloWorld.c
+  112  ./a.out
+  113  nano HelloWorld.c
+  114  gcc HelloWorld.c
+  115  ./a.out
+  116  nano HelloWorld.c
+  117  gcc HelloWorld.c
+  118  ./a.out
+  119  nano HelloWorld.c
+  120  gcc HelloWorld.c
+  121  ./a.out
+  122  nano HelloWorld.c
+  123  gcc HelloWorld.c
+  124  ./a.out
+  125  nano HelloWorld.c
+  126  gcc HelloWorld.c
+  127  ./a.out
+  128  nano HelloWorld.c
+  129  gcc HelloWorld.c
+  130  ./a.out
+  131  nano HelloWorld.c
+  132  gcc HelloWorld.c
+  133  ./a.out
+  134  nano HelloWorld.c
+  135  rm *.out
+  136  ls -lt
+  137  nano code4.c
+  138  ls -lt
+  139  pwd
+  140  history
+  141  history . history_20201005.txt
+  142  history > history_20201005.txt

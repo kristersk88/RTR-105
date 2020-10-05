@@ -1,0 +1,2 @@
+//komentars
+main (){}
