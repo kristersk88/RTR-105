@@ -7,15 +7,9 @@
    who
    last
    registry
-   use
    user
    pwd
-    /
-   /home
-   /user
-   history
    man uname
-   ls
    man ls
    ls -l
    ls -a
@@ -24,9 +18,7 @@
    ls -la
    ls -al
    mkdir ABC
-   cd ABC/
    tree
-   cd
    cd ABC/
    cd .
    cd ..
@@ -36,13 +28,11 @@
    rmdir ABC/
    ls -lt
    touch a.txt
-   echo
    echo 12345 > b.txt
    cat b.txt
    echo 67890 > b.txt
    echo abcde >> b.txt
    echo fghij >> c.txt
-   nano
    nano d.txt
    hexdump -C b.txt
    rm a.txt
@@ -78,35 +68,29 @@
    cat my_first_shell_script.sh
    groups
    
-```
-```
-   45  git clone https://github.com/kristersk88/RTR-105
-   49  cd RTR-105
-   53  .git$ cat config
-   54  cd RTR-105
-   55  cat git-upload
-   56  cd
-   57  ls -lta
-   58  cat a.sh
-   59  rd rd a.sh
-   60  ls -lt a.sh
-   63  chmod 754 a.sh
-   64  ./a.sh
-   70  rm RTR-105
-   71  rm -rf RTR-105
-   73  gcc my_first_code.c
-   74  echo $?
-   76  cat a.out
-   81  ./a.out
-   82  history
-   83  nano my_second_code.c
-   84  ./my_second_code.c
-   85  gcc my_second_code.c
-   87  gcc my_first_code.c -o my_first_code.out
-   88  ls -lt
-   89  gcc my_second_code.c -o my_second_code.out
-   91  cat my_first_code.c
-   92  cat my_second_code.c
+   git clone https://github.com/kristersk88/RTR-105
+   cd RTR-105
+   .git$ cat config
+   cat git-upload
+   cat a.sh
+   rd rd a.sh
+   ls -lt a.sh
+   chmod 754 a.sh
+   ./a.sh
+   rm RTR-105
+   rm -rf RTR-105
+   gcc my_first_code.c
+   echo $?
+   cat a.out
+   ./a.out
+   nano my_second_code.c
+   ./my_second_code.c
+   gcc my_second_code.c
+   gcc my_first_code.c -o my_first_code.out
+   ls -lt
+   gcc my_second_code.c -o my_second_code.out
+   cat my_first_code.c
+   cat my_second_code.c
 
 ```
 #### Script
