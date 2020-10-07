@@ -1,8 +1,8 @@
 # RTR-105
 ## Datormācība (pamatkurss) elektroniskā klade
 
-#### Komandas:
-### Paņēmieni un darbs ar failiem Shell'ā
+### Komandas:
+#### Paņēmieni un darbs ar failiem Shell'ā
 ```
    whoami
    who
@@ -69,7 +69,7 @@
    cat my_first_shell_script.sh
    groups
    ```
-   ### C - gcc
+   #### C - gcc
    ```
    git clone https://github.com/kristersk88/RTR-105
    cd RTR-105
