@@ -2,6 +2,7 @@
 ## Datormācība (pamatkurss) elektroniskā klade
 
 #### Komandas:
+### Paņēmieni un darbs ar failiem Shell'ā
 ```
    whoami
    who
@@ -67,18 +68,17 @@
    ls -l EFG/c.txt
    cat my_first_shell_script.sh
    groups
-   
+   ```
+   ### C - gcc
+   ```
    git clone https://github.com/kristersk88/RTR-105
    cd RTR-105
-   .git$ cat config
-   cat git-upload
-   cat a.sh
-   rd rd a.sh
    ls -lt a.sh
    chmod 754 a.sh
    ./a.sh
    rm RTR-105
    rm -rf RTR-105
+   nano my_first_code.c
    gcc my_first_code.c
    echo $?
    cat a.out
