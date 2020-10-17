@@ -2,7 +2,7 @@
 
 int main()
 {
- float a, b, c = 0;
+ float a, b, c;
     
 printf("Ievadiet pirmo reizinātāju:\n");
  scanf("%f",&a);
