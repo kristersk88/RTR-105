@@ -4,27 +4,24 @@
 ### Komandas:
 #### Paņēmieni un darbs ar failiem Shell'ā
 ```
-   whoami
-   who
-   last
+   whoami #Who you are logged in as
+   who #Who is logged into the system.
+   last #Last users who have logged onto the system.
    registry
    user
-   pwd
-   man uname
+   pwd #The present working directory
+   uname -a #Linux system information
    man ls
    ls -l
    ls -a
    ls -a -l
    ls -l -a
    ls -la
-   ls -al
+   ls -al #All files in a long listing (detailed) format
    mkdir ABC
    tree
-   cd ABC/
-   cd .
-   cd ..
-   cd /
-   cd /home/user/
+   cd #Go to the $HOME directory
+   cd .. #Go up one level of the directory tree.
    cd ~
    rmdir ABC/
    ls -lt
