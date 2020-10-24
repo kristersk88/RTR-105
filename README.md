@@ -30,41 +30,7 @@
    cp #Copy files or group of files or directory
    chmod #Change the access mode of a file
    groups #The collection of users
-   ```
-   #### C - gcc
-   ```
-   git clone https://github.com/kristersk88/RTR-105
-   cd RTR-105
-   ls -lt a.sh
-   chmod 754 a.sh
-   ./a.sh
-   rm RTR-105
-   rm -rf RTR-105
-   nano my_first_code.c
-   gcc my_first_code.c
-   echo $?
-   cat a.out
-   ./a.out
-   nano my_second_code.c
-   ./my_second_code.c
-   gcc my_second_code.c
-   gcc my_first_code.c -o my_first_code.out
-   ls -lt
-   gcc my_second_code.c -o my_second_code.out
-   cat my_first_code.c
-   cat my_second_code.c
-
-```
-#### Script
-
-```
-#!/bin/bash
-
-mkdir ABC
-mkdir EFG
-touch a.txt
-cat a.txt > ABC/b.txt
-cd EFG
-mv ../ABC/b.txt c.txt
-
-```
+   git clone #Create a clone, or copy of the target repository
+   ./ #Execute file
+   gcc #GNU Compiler used to compile mainly C and C++ language
+   echo $? #Return the exit status of last command
