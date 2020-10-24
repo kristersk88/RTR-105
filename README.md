@@ -17,7 +17,7 @@
   - **tree** #Recursive directory listing program that produces a depth-indented listing of files
   - **cd** #Go to the $HOME directory
   - **cd ..** #Go up one level of the directory tree.
-  - **cd ~** #Change to home directory
+  - __cd__ ~ #Change to home directory
   - **rmdir** #Remove empty directories from the filesystem in Linux
   - **touch** #Create, change and modify timestamps of a file
   - **echo** #Display line of text/string that are passed as an argument
