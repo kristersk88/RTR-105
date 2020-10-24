@@ -7,64 +7,29 @@
    whoami #Who you are logged in as
    who #Who is logged into the system.
    last #Last users who have logged onto the system.
-   registry
-   user
+   users #Show the user names of users currently logged in to the current host
    pwd #The present working directory
    uname -a #Linux system information
-   man ls
-   ls -l
-   ls -a
-   ls -a -l
-   ls -l -a
-   ls -la
+   ls -l #List with long format - show permissions
+   ls -a #List all files including hidden file starting with '.'
+   ls -la #List long format including hidden files
    ls -al #All files in a long listing (detailed) format
-   mkdir ABC
-   tree
+   mkdir #Create directories
+   tree #Recursive directory listing program that produces a depth-indented listing of files
    cd #Go to the $HOME directory
    cd .. #Go up one level of the directory tree.
-   cd ~
-   rmdir ABC/
-   ls -lt
-   touch a.txt
-   echo 12345 > b.txt
-   cat b.txt
-   echo 67890 > b.txt
-   echo abcde >> b.txt
-   echo fghij >> c.txt
-   nano d.txt
-   hexdump -C b.txt
-   rm a.txt
-   mv HIJ KLM
-   mv b.txt b.text
-   rm *.txt
-   cp b.text KLM/b1.text
-   cp KLM/b1.text EFG/b2.txt
-   ls -l KLM/
-   ls -l /home/user/EFG/
-   ls -l ../EFG/
-   rmdir EFG/
-   rm EFG/
-   man rmdir
-   rmdir --ignore-fail-on-non-empty EFG/
-   man rm
-   rm -r EFG/
-   ls -l /bin/ls
-   cat /bin/ls
-   cat
-   nano my_first_shell_script.sh
-   echo $PATH
-   mv my_first_shell_script my_first_shell_script.sh
-   PATH=$PATH:~
-   echo $PATH
-   rd my_first_shell_script my_first_shell_scrip
-   /home/user/my_first_shell_script.sc
-   chmod +rwx my_first_shell_script.sh
-   chmod my_first_shell_script.sh
-   chmod 754 my_first_shell_script.sh
-   hmod 754 my_first_shell_script.sh
-   ls -l EFG/c.txt
-   cat my_first_shell_script.sh
-   groups
+   cd ~ #Change to home directory
+   rmdir #Remove empty directories from the filesystem in Linux
+   touch #Create, change and modify timestamps of a file
+   echo #Display line of text/string that are passed as an argument
+   cat #Reads data from file and gives their content as output
+   nano #Command line text editor
+   hexdump #Filter and display files, or standard input in a human readable format
+   rm #Remove objects such as files, directories, symbolic links
+   mv #Move one or more files or directories from one place to another
+   cp #Copy files or group of files or directory
+   chmod #Change the access mode of a file
+   groups #The collection of users
    ```
    #### C - gcc
    ```
