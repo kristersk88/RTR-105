@@ -3,7 +3,6 @@
 
 ### Komandas:
 #### Paņēmieni un darbs ar failiem Shell'ā
-```
    whoami #Who you are logged in as
    who #Who is logged into the system.
    last #Last users who have logged onto the system.
