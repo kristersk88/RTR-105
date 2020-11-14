@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+void funkcija_1();
+int funkcija_2a(),funkcija_2b();
+void funkcija_3(int a,int b);
+int funkcija_4(int in_4a, int in_4b);
+
+int main()
+{
+  float a, b, c;
+  int data_a,data_b;
+  double result_main;
+  funkcija_1();
+  data_a=funkcija_2a();
+  data_b=funkcija_2b();
+  result_main=funkcija_4(data_a,data_b);
+  funkcija_3(data_a,data_b);
+  return 0;
+}
+
+void funkcija_1()
+{
+  printf("Sveiks lietotāj!\n");
+}
+int funkcija_4(int in_4a, int in_4b)
+{
+  float result = in_4a * in_4b;
+  printf("Skaitļu %d un %d reizinājums = %.f\n",in_4a, in_4b, result);
+  return result;
+}
+void funkcija_3(int a,int b)
+{
+  double result=(float)a / b;
+  printf("skaitļu %d un %d dalījums = %.2f\n",a,b,result);
+}
+int funkcija_2a()
+{
+  float a;
+  printf("Ievadiet pirmo skaitli: ");
+  scanf("%f",&a);
+  return a;
+}
+int funkcija_2b()
+{
+  float b;
+  printf("Ievadiet pirmo skaitli: ");
+  scanf("%f",&b);
+  return b;
+}
