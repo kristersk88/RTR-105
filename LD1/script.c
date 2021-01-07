@@ -72,3 +72,4 @@ printf("\t\t\t\t\t\t1000\n");
 	printf("\n");
 	printf("                          (4*k*(k+1))\n");
 }
+
