@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<math.h>
+
+double f(double x,double C)
+{
+    return j1(x)-C;
+}
+
+int main()
+{
+  float a, b, c, x, y, delta_x, funka, funkb, funkx, rez;
+  int k=0;
+  printf("Cien lietotāj! Ievadied a vērtību\n");
+  scanf("%f",&a);
+  printf("Cien lietotāj! Ievadied b vērtību\n");
+  scanf("%f",&b);
+  printf("Cien lietotāj! Ievadied c vērtību\n");
+  scanf("%f",&c);
+  printf("Cien lietotāj! Ievadied delta_x vērtību\n");
+  scanf("%f",&delta_x);
+
+  funka = f(a,c), funkb = f(b,c), funkx = f(x,c);
+  if(funka*funkb>0)
+  {
+    printf("intervālā [%.2f;%.2f] j1(x) funkcijai ",a,b);
+    printf("sakņu nav (vai tajā ir pāru sakņu skaits)\n");
+    return 1;
+  }
+  printf("j1(%7.3f)=%7.3f\t\t\t\t",a,j1(a));
+  printf("j1(%7.3f)=%7.3f\n",b,j1(b));
+
+  while ((b-a)>delta_x)
+  {
+    k++;
+    x=(a+b)/2;
+    if(funka*f(x,c)>0)
+    a=x;
+    else
+    b=x;
+    printf("%2d  interācija: j1(%7.3f)=%7.3f\t",k,a,j1(a));
+    printf("j1(%7.3f)=%7.3f\t",x,j1(x));
+    printf("j1n(%7.3f)=%7.3f\n",b,j1(b));
+  }
+  printf("Sakne atrodas pie x=%.3f, jo j1(x) ir %.3f\n",x,j1(x));
+  printf("interāciju skaits: %d",k);
+  return 0;
+}
