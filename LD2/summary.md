@@ -1,4 +1,4 @@
-### Skaitliksās metodes - dihotomijas metode
+# Skaitliksās metodes - dihotomijas metode
 
 ## Veicamie uzdevumi darbā:
    - Uzdevumu risināšanas algoritma izveide izmantojot dihotomijas metodi;
